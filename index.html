@@ -24,11 +24,12 @@
             <div class="text-above-search">Safe Travel Anywhere</div>
             <div class="search-bar">
               <input type="text" class="search-input" placeholder="Search Your Travel Destination">
-              <button class="search-button">Search</button>
+              <button class="search-button">Search  <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </div>
             <div class="scroll-down">
               <div class="scroll-text">Scroll Down</div>
-              <img class="scroll-image" src="" alt="Scroll Down Icon">
+              <i class="fa-solid fa-chevron-down scrollToWhyChooseUs"></i>
             </div>
           </div>
         </div>
@@ -41,10 +42,10 @@
           </div>
           <nav class="footer-nav">
             <ul class="footer-menu">
-              <li><a href="#">Who We Are</a></li>
-              <li><a href="#">What We Do</a></li>
-              <li><a href="#">Travel With Us</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">WHO ARE WE</a></li>
+              <li><a href="#">WHAT WE DO</a></li>
+              <li><a href="#">TRAVEL WITH US</a></li>
+              <li><a href="#">CONTACT US</a></li>
             </ul>
           </nav>
         </div>
@@ -57,7 +58,7 @@
                 so blinded by desire, that they cannot foresee</p>
                 <p>Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, 
                 that.</p>
-                <button class="btn general">Explore Places</button>
+                <button class="btn explore">EXPLORE PLACES</button>
             </div>
             <div class="imgs">  
                 <img class="img one" src="/Images/Image3.png" alt="old house by lake">
@@ -147,5 +148,15 @@
       </section>
 
 
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const scrollToWhyChooseUs = document.querySelector(".scrollToWhyChooseUs");
+          const whyChooseUsSection = document.querySelector(".why-choose-us");
+      
+          scrollToWhyChooseUs.addEventListener("click", function() {
+            whyChooseUsSection.scrollIntoView({ behavior: "smooth" });
+          });
+        });
+      </script>
 </body>
 </html>
