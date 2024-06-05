@@ -229,3 +229,48 @@ body {
       grid-column: 1 / 2;
       grid-row: 2 / 3;
   }
+  .custom-search-places {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    width: 100%;
+    background-color: 
+    #333333;
+  }
+  
+  .custom-container {
+    max-width: 1100px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .custom-item.custom-c-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .custom-item.custom-c-two img {
+    /* Images will be added later*/
+  }
+  
+  .custom-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    width: 1005px;
+    margin-top: 18px;
+    flex-direction: row;
+
+  }
+  
+  
+  .custom-row p {
+    font-family: "Aleo", serif;
+    color: fonts.$secondary-font-color;
+    text-align: center;
+    font-size: 30px;
+    line-height: 26px;
+    margin: 0px;
+    width: 245px;
+  }
