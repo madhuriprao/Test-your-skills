@@ -272,14 +272,21 @@ body {
     margin: 0px;
     width: 245px;
   }
-  .booking-section {
+  .booking-section{
     position: relative;
     height: 700px;
     width: 100%;
     background-image: url(../images/Image5.png);
   }
+
+  .booking-section2 {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-image: url(../Images/image6.png);
+  }
   
-  .booking-card {
+  .booking-card{
     position: absolute;
     top: 227px;
     bottom: 99px;
@@ -295,31 +302,47 @@ body {
     height: 374px;
   }
   
-  .booking-content {
+  .booking-card2 {
+    position: absolute;
+    top: 227px;
+    bottom: 99px;
+    right: 328px;
+    left: 700px;
+    background: rgba(56, 54, 54, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 543px;
+    height: 374px;
+
+  }
+  .booking-content,.booking-content2 {
     margin: 30px;
   }
   
-  .booking-content h5 {
+  .booking-content h5,.booking-content2 h5 {
     font-size: 20px;
     color: #fff;
     margin-bottom: 23px;
   }
   
-  .booking-content h4 {
+  .booking-content h4 , .booking-content2 h4{
     font-size: 20px;
     color: #fff;
     margin-bottom: 13px;
     text-transform: uppercase;
   }
   
-  .booking-content p {
+  .booking-content p, .booking-content2 p{
     width: 508px;
     font-size: 16px;
     color: #fff;
     line-height: 26px;
   }
   
-  .btn.book-btn {
+  .btn.book-btn, .btn.book-btn2{
     margin: 16px 0;
     padding: 10px 20px;
     background-color: #007bff;
@@ -329,6 +352,8 @@ body {
     font-size: 16px;
     cursor: pointer;
   }
-  .btn.book-btn:hover {
+
+  
+  .btn.book-btn:hover , .btn.book-btn2:hover {
     background-color: #0056b3; 
   }
