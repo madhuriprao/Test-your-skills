@@ -1,0 +1,69 @@
+
+
+@media screen and (max-width: 320px) {
+    .center-section {
+      height: auto; /* Adjust height as needed */
+    }
+  
+    .why-choose-us,
+    .search-places,
+    .booking-section2,
+    .booking-section,
+    .testimonials,
+    .last-footer-section {
+      height: auto; 
+    }
+  
+    .item.c-one,
+    .item.c-two,
+    .imgs {
+      width: auto; 
+    }
+  
+    .imgs {
+      width: 100%; 
+    }
+  
+    .footer-left {
+      margin-left: 0; 
+    }
+  
+    .custom-row {
+      width: auto; 
+      flex-direction: column; 
+    }
+  
+    .custom-row p {
+      width: auto; 
+      text-align: center; 
+    }
+  
+    .booking-section,
+    .booking-section2 {
+      height: auto; 
+    }
+  
+    .booking-card,
+    .booking-card2 {
+      position: relative; 
+      top: auto; 
+      bottom: auto; 
+      left: auto; 
+      right: auto; 
+      margin: 0 auto; 
+      width: 90%; 
+      height: auto;
+    }
+  
+    .testimonial-content {
+      flex-direction: column; /* Adjust flex direction as needed */
+    }
+  
+    .testimonial-img {
+      margin-right: 0; /* Adjust margin as needed */
+    }
+  
+    .last-footer-menu {
+      justify-content: center; /* Adjust alignment as needed */
+    }
+  }
