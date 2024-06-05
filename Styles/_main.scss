@@ -250,9 +250,7 @@ body {
     align-items: center;
   }
   
-  .custom-item.custom-c-two img {
-    /* Images will be added later*/
-  }
+ 
   
   .custom-row {
     display: flex;
@@ -273,4 +271,64 @@ body {
     line-height: 26px;
     margin: 0px;
     width: 245px;
+  }
+  .booking-section {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-image: url(../images/Image5.png);
+  }
+  
+  .booking-card {
+    position: absolute;
+    top: 227px;
+    bottom: 99px;
+    left: 328px;
+    right: 899px;
+    background: rgba(56, 54, 54, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 543px;
+    height: 374px;
+  }
+  
+  .booking-content {
+    margin: 30px;
+  }
+  
+  .booking-content h5 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 23px;
+  }
+  
+  .booking-content h4 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+  }
+  
+  .booking-content p {
+    width: 508px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+  }
+  
+  .btn.book-btn {
+    margin: 16px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn.book-btn:hover {
+    background-color: #0056b3; 
   }
